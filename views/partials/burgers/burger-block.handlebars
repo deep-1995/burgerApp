@@ -1,0 +1,11 @@
+<li>
+    <h6>
+
+        <button type="button" class="change-devoured btn btn-outline-danger btn-sm" data-id="{{id}}"
+            data-newdevoured="{{devoured}}">
+            {{#if devoured}}EATEN<span><button type="button" class="delete-burger btn btn-outline-warning btn-sm"
+                    data-id="{{this.id}}">DELETE</button></span>{{else}}DEVOUR ME!{{/if}}
+        </button>
+
+        {{burger_name}}</h6>
+</li>
